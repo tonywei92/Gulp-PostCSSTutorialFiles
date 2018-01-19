@@ -1,0 +1,33 @@
+.navbar{
+	background-color: $mainBlue;
+	color: white;
+	padding: 0.6rem;
+	
+	&__title{
+		text-align: center;
+	}
+
+	&__button{
+		list-style: none;
+		float: left;
+		margin-right: 1rem;
+		padding: 0.6rem;
+
+		a{
+			text-decoration: none;
+			color: white;
+		}
+
+		&:hover{
+			background-color: $secondaryBlue;
+		}
+
+	}
+	
+	&:after{
+		display: block;
+		content: "";
+		clear: both;
+	}
+
+}

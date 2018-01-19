@@ -1,0 +1,38 @@
+/* Colors 
+****************************/
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+body{
+	font-family: "Arial";
+	margin: 0;
+}
+.navbar{
+	background-color: #34aad9;
+	color: white;
+	padding: 0.6rem;
+
+}
+.navbar__title{
+		text-align: center;
+	}
+.navbar__button{
+		list-style: none;
+		float: left;
+		margin-right: 1rem;
+		padding: 0.6rem;
+
+	}
+.navbar__button a{
+			text-decoration: none;
+			color: white;
+		}
+.navbar__button:hover{
+			background-color: #5bbbe0;
+		}
+.navbar:after{
+		display: block;
+		content: "";
+		clear: both;
+	}
